@@ -1,0 +1,17 @@
+2025-08-27 17:22:39,842 | INFO | MT5 успешно инициализирован
+2025-08-27 17:22:39,843 | INFO | Запрос котировок: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:22:39,845 | INFO | Получено 1500 баров
+2025-08-27 17:22:39,848 | INFO | Анализ завершён
+2025-08-27 17:22:39,888 | INFO | Сигналы для XAUUSD+:
+       long  short
+1490  False  False
+1491  False  False
+1492  False  False
+1493  False  False
+1494  False  False
+1495  False  False
+1496  False  False
+1497  False  False
+1498  False  False
+1499  False  False
+2025-08-27 17:22:39,888 | INFO | MT5 отключен

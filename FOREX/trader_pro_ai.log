@@ -1,0 +1,27 @@
+2025-09-11 22:26:36,568 - INFO - TraderPro AI starting...
+2025-09-11 22:26:36,568 - INFO - MetaTrader5 python библиотека доступна.
+2025-09-11 22:26:36,568 - WARNING - No MT5 data Ч пытаюсь загрузить из симул€ции/sample CSV.
+2025-09-11 22:26:36,568 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 22:26:36,573 - INFO - »спользую синтетические данные (дл€ теста).
+2025-09-11 22:26:36,576 - INFO - MarketMakerIntent: inst=0.23 mm=0.23 retail=0.54
+2025-09-11 22:26:36,993 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 22:26:37,386 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 22:26:37,951 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 22:29:17,700 - INFO - TraderPro AI starting...
+2025-09-11 22:29:17,700 - INFO - MetaTrader5 python библиотека доступна.
+2025-09-11 22:29:17,700 - WARNING - No MT5 data Ч пытаюсь загрузить из симул€ции/sample CSV.
+2025-09-11 22:29:17,700 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 22:29:17,704 - INFO - »спользую синтетические данные (дл€ теста).
+2025-09-11 22:29:17,707 - INFO - MarketMakerIntent: inst=0.30 mm=0.30 retail=0.40
+2025-09-11 22:29:18,103 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 22:29:18,544 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 22:29:19,073 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 23:29:09,326 - INFO - TraderPro AI starting...
+2025-09-11 23:29:09,326 - INFO - MetaTrader5 python библиотека доступна.
+2025-09-11 23:29:09,326 - WARNING - No MT5 data Ч пытаюсь загрузить из симул€ции/sample CSV.
+2025-09-11 23:29:09,327 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 23:29:09,329 - INFO - »спользую синтетические данные (дл€ теста).
+2025-09-11 23:29:09,332 - INFO - MarketMakerIntent: inst=0.23 mm=0.23 retail=0.54
+2025-09-11 23:29:09,623 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 23:29:09,932 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 23:29:10,746 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items

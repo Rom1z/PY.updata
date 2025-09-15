@@ -1,0 +1,2811 @@
+2025-08-27 13:29:58 | === TraderPro AI start ===
+2025-08-27 13:30:13 | get_rates failed for XAUUSD, tf=15, bars~1500. Last errors: [(-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed')]
+2025-08-27 13:30:13 | Worker error: Не удалось загрузить данные для XAUUSD. Проверь MT5, Market Watch и логин.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 749, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 616, in analyze
+    raise RuntimeError(f"Не удалось загрузить данные для {symbol}. Проверь MT5, Market Watch и логин.")
+RuntimeError: Не удалось загрузить данные для XAUUSD. Проверь MT5, Market Watch и логин.
+
+2025-08-27 13:30:24 | get_rates failed for XAUUSD, tf=15, bars~1500. Last errors: [(-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed')]
+2025-08-27 13:31:27 | get_rates failed for XAUUSD, tf=15, bars~1500. Last errors: [(-10004, 'No IPC connection'), (-10004, 'No IPC connection'), (-10004, 'No IPC connection')]
+2025-08-27 16:23:10 | === TraderPro AI start ===
+2025-08-27 16:23:32 | get_rates failed for XAUUSD, tf=15, bars~1500. Last errors: [(-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed')]
+2025-08-27 16:23:32 | Worker error: Не удалось загрузить данные для XAUUSD. Проверь MT5, Market Watch и логин.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 749, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 616, in analyze
+    raise RuntimeError(f"Не удалось загрузить данные для {symbol}. Проверь MT5, Market Watch и логин.")
+RuntimeError: Не удалось загрузить данные для XAUUSD. Проверь MT5, Market Watch и логин.
+
+2025-08-27 16:23:43 | get_rates failed for XAUUSD, tf=15, bars~1500. Last errors: [(-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed'), (-1, 'Terminal: Call failed')]
+2025-08-27 16:37:51 | === TraderPro AI start ===
+2025-08-27 16:37:51 | find_symbol: startswith -> XAUUSD+
+2025-08-27 16:37:58 | find_symbol: exact match -> XAUUSD+
+2025-08-27 16:37:58 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 16:37:58 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 789, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 664, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 16:37:58 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:08:48 | === TraderPro AI start ===
+2025-08-27 17:08:48 | find_symbol: startswith -> XAUUSD+
+2025-08-27 17:08:53 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:08:53 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:08:53 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 1006, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 878, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:08:53 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:09:00 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:09:00 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:09:00 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 1006, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 878, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:13:22 | === TraderPro AI start ===
+2025-08-27 17:13:22 | find_symbol: startswith -> XAUUSD+
+2025-08-27 17:13:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:13:25 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:13:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:13:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:13:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 906, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 802, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:13:25 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:13:31 | === TraderPro AI start ===
+2025-08-27 17:13:31 | find_symbol: startswith -> XAUUSD+
+2025-08-27 17:13:35 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:13:35 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:13:35 | pandas_ta.AllStrategy failed: 'Strategy' object is not iterable
+2025-08-27 17:13:35 | make_labels: df is None or 'close' missing
+2025-08-27 17:13:35 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:13:35 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 906, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 802, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:13:35 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:18:00 | === TraderPro AI start ===
+2025-08-27 17:18:05 | === TraderPro AI start ===
+2025-08-27 17:18:30 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:18:30 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:18:30 | make_labels: df is None or 'close' missing
+2025-08-27 17:18:30 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:18:30 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:18:30 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:24:42 | === TraderPro AI start ===
+2025-08-27 17:24:43 | find_symbol: startswith -> XAUUSD+
+2025-08-27 17:24:43 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:24:43 | make_labels: df is None or 'close' missing
+2025-08-27 17:24:43 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:24:43 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:24:43 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-27 17:31:22 | === TraderPro AI start ===
+2025-08-27 17:31:22 | === TraderPro AI start ===
+2025-08-27 17:31:28 | find_symbol: startswith -> XAUUSD+
+2025-08-27 17:31:28 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:31:28 | make_labels: df is None or 'close' missing
+2025-08-27 17:31:28 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:31:28 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:31:28 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:32:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:32:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:32:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:32:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:32:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:32:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:33:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:33:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:33:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:33:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:33:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:33:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:34:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:34:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:34:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:34:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:34:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:34:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:35:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:35:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:35:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:35:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:35:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:35:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:36:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:36:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:36:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:36:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:36:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:36:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:37:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:37:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:37:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:37:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:37:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:37:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:38:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:38:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:38:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:38:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:38:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:38:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:39:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:39:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:39:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:39:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:39:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:39:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:40:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:40:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:40:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:40:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:40:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:40:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:41:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:41:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:41:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:41:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:41:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:41:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:42:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:42:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:42:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:42:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:42:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:42:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:43:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:43:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:43:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:43:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:43:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:43:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:44:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:44:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:44:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:44:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:44:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:44:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:45:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:45:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:45:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:45:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:45:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:45:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:46:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:46:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:46:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:46:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:46:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:46:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:47:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:47:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:47:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:47:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:47:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:47:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:48:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:48:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:48:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:48:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:48:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:48:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:49:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:49:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:49:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:49:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:49:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:49:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:50:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:50:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:50:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:50:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:50:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:50:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:51:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:51:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:51:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:51:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:51:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:51:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:52:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:52:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:52:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:52:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:52:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:52:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:53:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:53:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:53:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:53:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:53:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:53:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:54:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:54:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:54:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:54:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:54:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:54:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:55:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:55:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:55:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:55:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:55:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:55:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:56:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:56:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:56:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:56:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:56:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:56:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:57:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:57:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:57:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:57:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:57:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:57:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:58:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:58:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:58:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:58:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:58:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:58:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:59:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 17:59:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 17:59:25 | make_labels: df is None or 'close' missing
+2025-08-27 17:59:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 17:59:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 17:59:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:00:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:00:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:00:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:00:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:00:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:00:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:01:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:01:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:01:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:01:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:01:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:01:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:02:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:02:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:02:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:02:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:02:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:02:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:03:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:03:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:03:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:03:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:03:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:03:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:04:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:04:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:04:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:04:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:04:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:04:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:05:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:05:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:05:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:05:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:05:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:05:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:06:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:06:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:06:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:06:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:06:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:06:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:07:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:07:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:07:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:07:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:07:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:07:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:08:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:08:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:08:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:08:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:08:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:08:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:09:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:09:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:09:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:09:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:09:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:09:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:10:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:10:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:10:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:10:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:10:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:10:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:11:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:11:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:11:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:11:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:11:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:11:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:12:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:12:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:12:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:12:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:12:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:12:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:13:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:13:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:13:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:13:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:13:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:13:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:14:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:14:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:14:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:14:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:14:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:14:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:15:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:15:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:15:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:15:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:15:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:15:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:16:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:16:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:16:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:16:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:16:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:16:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:17:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:17:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:17:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:17:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:17:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:17:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:18:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:18:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:18:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:18:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:18:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:18:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:19:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:19:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:19:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:19:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:19:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:19:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:20:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:20:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:20:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:20:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:20:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:20:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:21:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:21:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:21:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:21:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:21:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:21:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:22:17 | === TraderPro AI start ===
+2025-08-27 18:22:18 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-27 18:22:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:22:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:22:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:22:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:22:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:22:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:22:30 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:22:30 | make_labels: df is None or 'close' missing
+2025-08-27 18:22:30 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:22:30 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\7.py", line 969, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\7.py", line 842, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:23:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:23:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:23:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:23:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:23:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:23:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:24:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:24:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:24:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:24:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:24:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:24:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:25:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:25:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:25:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:25:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:25:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:25:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:26:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:26:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:26:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:26:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:26:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:26:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:27:25 | find_symbol error: symbols_get() returned empty. last_error=(-10001, 'IPC send failed')
+2025-08-27 18:27:36 | get_rates failed for XAUUSD+, tf=16385, bars~1500. Last errors: [(-10001, 'IPC send failed'), (-10001, 'IPC send failed'), (-10001, 'IPC send failed'), (-10001, 'IPC send failed'), (-10001, 'IPC send failed')]
+2025-08-27 18:27:36 | Worker error: Не удалось загрузить данные для XAUUSD+. Проверь MT5, Market Watch и логин.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 735, in analyze
+    raise RuntimeError(f"Не удалось загрузить данные для {symbol}. Проверь MT5, Market Watch и логин.")
+RuntimeError: Не удалось загрузить данные для XAUUSD+. Проверь MT5, Market Watch и логин.
+
+2025-08-27 18:27:36 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:28:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:28:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:28:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:28:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:28:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:28:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:29:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:29:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:29:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:29:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:29:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:29:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:30:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:30:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:30:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:30:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:30:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:30:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:31:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:31:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:31:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:31:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:31:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:31:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:32:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:32:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:32:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:32:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:32:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:32:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:33:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:33:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:33:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:33:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:33:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:33:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:34:22 | === TraderPro AI start ===
+2025-08-27 18:34:22 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-27 18:34:22 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-08-27 18:34:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:34:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:34:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:34:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:34:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:34:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:34:28 | find_symbol: candidate match -> XAUUSD+
+2025-08-27 18:34:55 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:35:01 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:35:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:35:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:35:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:35:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:35:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:35:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:36:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:36:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:36:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:36:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:36:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:36:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:37:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:37:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:37:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:37:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:37:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:37:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:38:25 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:38:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:38:25 | make_labels: df is None or 'close' missing
+2025-08-27 18:38:25 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-27 18:38:25 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-27 18:38:25 | get_rates success: symbol=XAUUSD+ timeframe=16385 bars=1500
+2025-08-27 18:39:06 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:10 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:17 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:24 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:32 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:38 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:39:48 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:53:19 | === TraderPro AI start ===
+2025-08-27 18:53:19 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-27 18:53:19 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-08-27 18:53:26 | find_symbol: candidate match -> XAUUSD+
+2025-08-27 18:53:34 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:53:38 | find_symbol: exact match -> XAUUSD+
+2025-08-27 18:53:43 | find_symbol: exact match -> XAUUSD+
+2025-08-28 17:00:24 | === TraderPro AI start ===
+2025-08-28 17:00:24 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-28 17:00:24 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-08-28 17:00:36 | find_symbol: candidate match -> XAUUSD+
+2025-08-28 17:00:42 | find_symbol: exact match -> XAUUSD+
+2025-08-28 17:00:46 | find_symbol: exact match -> XAUUSD+
+2025-08-28 17:04:56 | find_symbol: exact match -> XAUUSD+
+2025-08-28 17:05:01 | find_symbol: exact match -> XAUUSD+
+2025-08-28 17:05:18 | === TraderPro AI start ===
+2025-08-28 17:05:20 | find_symbol: startswith -> XAUUSD+
+2025-08-28 17:05:20 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-28 17:05:20 | make_labels: df is None or 'close' missing
+2025-08-28 17:05:21 | analyze: dumped df_ind to last_df_dump.pkl
+2025-08-28 17:05:21 | Worker error: Labels cannot be created: missing 'close' column or insufficient data.
+Traceback (most recent call last):
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 886, in run
+    res = analyze(self.symbol, self.tf_val, self.bars)
+  File "C:\Users\MOD PC COMPANY\PycharmProjects\PythonProject\.venv\FOREX\6.py", line 759, in analyze
+    raise RuntimeError("Labels cannot be created: missing 'close' column or insufficient data.")
+RuntimeError: Labels cannot be created: missing 'close' column or insufficient data.
+
+2025-08-28 17:05:21 | get_rates success: symbol=XAUUSD+ timeframe=15 bars=1500
+2025-08-29 15:16:46 | === TraderPro AI start ===
+2025-08-29 15:16:52 | === TraderPro AI start ===
+2025-08-29 15:16:52 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-29 15:16:52 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-08-29 15:16:59 | find_symbol: candidate match -> XAUUSD+
+2025-08-29 15:17:05 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:18:58 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:19:48 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:19:55 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:00 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:09 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:21 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:25 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:27 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:29 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:34 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:42 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:50 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:20:55 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:01 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:07 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:09 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:38 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:48 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:21:59 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:22:04 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:28:50 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:28:56 | find_symbol: exact match -> XAUUSD+
+2025-08-29 15:29:00 | find_symbol: exact match -> XAUUSD+
+2025-08-31 18:41:54 | === TraderPro AI start ===
+2025-08-31 18:41:54 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-08-31 18:41:54 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-05 23:45:56 | === TraderPro AI start ===
+2025-09-05 23:45:56 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-05 23:45:56 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-05 23:46:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:46:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:46:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:46:09 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:46:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:46:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:46:29 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:46:30 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:46:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:46:32 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:34 | === TraderPro AI start ===
+2025-09-05 23:46:35 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-05 23:46:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:46:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:46:36 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:37 | === TraderPro AI start ===
+2025-09-05 23:46:39 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-05 23:46:39 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:46:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:06 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:08 | === TraderPro AI start ===
+2025-09-05 23:47:09 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-05 23:47:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:47:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:18 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:20 | === TraderPro AI start ===
+2025-09-05 23:47:21 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-05 23:47:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:47:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:43 | === TraderPro AI start ===
+2025-09-05 23:47:43 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-05 23:47:43 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-05 23:47:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:46 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:47:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:51 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:47:52 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:47:52 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:47:54 | find_symbol: exact match -> XAUUSD+
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:56 | === TraderPro AI start ===
+2025-09-05 23:47:57 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-05 23:47:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-05 23:47:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-05 23:54:35 | === TraderPro AI start (fixed) ===
+2025-09-05 23:54:35 | MT5 is available. Running console loop (one iteration).
+2025-09-05 23:54:35 | main_console_loop start: symbol=XAUUSD bars=1500
+2025-09-05 23:54:35 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-05 23:54:35 | find_symbol exception: symbols_get() returned empty. Проверь MT5.
+2025-09-05 23:54:35 | Symbol resolution error: symbols_get() returned empty. Проверь MT5.
+2025-09-05 23:59:03 | === TraderPro AI start (fixed) ===
+2025-09-06 00:08:21 | === TraderPro AI starting ===
+2025-09-06 00:08:21 | find_symbol: symbols_get returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 00:08:21 | find_symbol exception: symbols_get() returned empty.
+2025-09-06 00:08:21 | get_rates: no rates for want=1500
+2025-09-06 00:08:21 | get_rates: no rates for want=3000
+2025-09-06 00:08:21 | get_rates: no rates for want=4500
+2025-09-06 00:08:22 | get_rates: no rates for want=750
+2025-09-06 00:08:22 | get_rates: no rates for want=300
+2025-09-06 00:08:22 | get_rates: no rates for want=200
+2025-09-06 00:08:22 | get_rates failed for XAUUSD, tf=15, bars~1500
+2025-09-06 00:08:22 | example_run_mt5: empty dataframe
+2025-09-06 00:11:13 | === TraderPro AI start ===
+2025-09-06 00:11:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 00:11:13 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 00:11:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:15 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:21 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:21 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:21 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:37 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:37 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:37 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:38 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:38 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:39 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:39 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:44 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:45 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:46 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:47 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:48 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:48 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:52 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:53 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:54 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:55 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:55 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:56 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:11:57 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:11:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:11:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:03 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:03 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:03 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:10 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:13 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:14 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:16 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:16 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:19 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:19 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:22 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:23 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:28 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:30 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:32 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:33 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:52 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:53 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:54 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:55 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:55 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:12:56 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:12:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:12:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:14:13 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:15 | === TraderPro AI start ===
+2025-09-06 00:14:16 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:14:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:14:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:14:22 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:23 | === TraderPro AI start ===
+2025-09-06 00:14:25 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:14:25 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:14:25 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:52:19 | === TraderPro AI start ===
+2025-09-06 00:52:19 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 00:52:19 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 00:52:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:52:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:52:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:52:29 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:52:30 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:52:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:52:34 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:36 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:37 | === TraderPro AI start ===
+2025-09-06 00:52:38 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:52:38 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:52:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:52:43 | find_symbol: exact match -> XAUUSD+
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:45 | === TraderPro AI start ===
+2025-09-06 00:52:47 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:52:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:52:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:53:10 | === TraderPro AI start ===
+2025-09-06 00:53:10 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 00:53:10 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 00:53:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:17 | === TraderPro AI start ===
+2025-09-06 00:53:18 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:53:19 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:53:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:53:36 | === TraderPro AI start ===
+2025-09-06 00:53:36 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 00:53:36 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 00:53:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:42 | === TraderPro AI start ===
+2025-09-06 00:53:43 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 00:53:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 00:53:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:00:06 | === TraderPro AI start ===
+2025-09-06 01:00:06 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:00:06 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:00:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:00:12 | === TraderPro AI start ===
+2025-09-06 01:00:12 | === TraderPro AI start ===
+2025-09-06 01:00:12 | === TraderPro AI start ===
+2025-09-06 01:00:12 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:13 | === TraderPro AI start ===
+2025-09-06 01:00:14 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 01:00:14 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:00:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:09:09 | === TraderPro AI start ===
+2025-09-06 01:09:09 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:09:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:09:13 | === TraderPro AI start ===
+2025-09-06 01:09:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:09:13 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:09:24 | === TraderPro AI start ===
+2025-09-06 01:09:24 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:09:24 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:09:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:36 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:37 | === TraderPro AI start ===
+2025-09-06 01:09:38 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 01:09:38 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:09:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:15:08 | === TraderPro AI start ===
+2025-09-06 01:15:08 | === TraderPro AI start ===
+2025-09-06 01:15:08 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:15:08 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:15:08 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:15:08 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:15:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:15:11 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:15:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:15:14 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:16 | === TraderPro AI start ===
+2025-09-06 01:15:17 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 01:15:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:15:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:20:50 | === TraderPro AI start ===
+2025-09-06 01:20:50 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 01:20:50 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 01:20:55 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:20:56 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:20:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:20:58 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:20:59 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:20:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:20:59 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:00 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:00 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:01 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:01 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:01 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:01 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:02 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:02 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:02 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:03 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:03 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:10 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:11 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:11 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:12 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:12 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:13 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:13 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:13 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:14 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:14 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:15 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:15 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:16 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:17 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:19 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:20 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:20 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:22 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:23 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:24 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:25 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:25 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:25 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:26 | find_symbol: exact match -> XAUUSD+
+2025-09-06 01:21:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 01:21:28 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 01:21:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:00:01 | === TraderPro AI start ===
+2025-09-06 16:00:01 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:00:01 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:00:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:18 | === TraderPro AI start ===
+2025-09-06 16:00:19 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 16:00:20 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:00:20 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:39 | === TraderPro AI start ===
+2025-09-06 16:08:39 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:08:39 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:08:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:45 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:08:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:46 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:08:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:49 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:08:50 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:50 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:51 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:08:52 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:55 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:08:55 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:08:56 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:08:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:09:01 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:03 | === TraderPro AI start ===
+2025-09-06 16:09:04 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 16:09:05 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:09:05 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:16:03 | === TraderPro AI start ===
+2025-09-06 16:16:03 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:16:03 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:05 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:07 | === TraderPro AI start ===
+2025-09-06 16:16:09 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | AUDCHF fetch error: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-06 16:16:09 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:17:53 | === TraderPro AI start ===
+2025-09-06 16:17:53 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:17:53 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:17:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:58 | === TraderPro AI start ===
+2025-09-06 16:17:59 | pandas_ta.AllStrategy error: ha() got an unexpected keyword argument 'offset'
+2025-09-06 16:17:59 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:17:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:19:12 | === TraderPro AI start ===
+2025-09-06 16:19:12 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:19:12 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:19:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:17 | === TraderPro AI start ===
+2025-09-06 16:19:18 | pandas_ta.AllStrategy error: 'Series' object has no attribute 'append'
+2025-09-06 16:19:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:19:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:25:37 | === TraderPro AI start ===
+2025-09-06 16:25:37 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:25:37 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:25:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:25:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:25:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:25:43 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:25:43 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-06 16:25:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:25:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:25:47 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:25:47 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-06 16:25:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:25:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:27:48 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:27:49 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-06 16:27:49 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:27:49 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:27:56 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:27:57 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-06 16:27:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:27:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:28:31 | === TraderPro AI start ===
+2025-09-06 16:28:31 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-06 16:28:31 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-06 16:28:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:28:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:28:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-06 16:28:40 | find_symbol: exact match -> XAUUSD+
+2025-09-06 16:28:41 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-06 16:28:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-06 16:28:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 14:55:30 | === TraderPro AI start ===
+2025-09-07 14:55:30 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 14:55:30 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 14:55:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 14:55:34 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 14:55:34 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 14:55:36 | find_symbol: exact match -> XAUUSD+
+2025-09-07 14:55:36 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 14:55:37 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 14:55:37 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 14:55:39 | find_symbol: exact match -> XAUUSD+
+2025-09-07 14:55:40 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 14:55:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 14:55:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 14:55:42 | find_symbol: exact match -> XAUUSD+
+2025-09-07 14:55:42 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 14:55:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 14:55:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:29 | === TraderPro AI start ===
+2025-09-07 16:26:29 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:26:29 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:26:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:33 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:40 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:42 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:43 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:44 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:45 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:46 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:46 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:48 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:48 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:48 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:49 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:49 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:26:50 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:50 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:50 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:26:50 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:26:59 | === TraderPro AI start ===
+2025-09-07 16:26:59 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:26:59 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:27:01 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:06 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:08 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:08 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:09 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:10 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:13 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:14 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:15 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:15 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:20 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:21 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:21 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:21 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:22 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:23 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:23 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:23 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:23 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:24 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:24 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:25 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:26 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:27 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:27 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:28 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:28 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:28 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:29 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:29 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:29 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:30 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:31 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:31 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:31 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:31 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:31 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:34 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:34 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:37 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:37 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:38 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:42 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:42 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:44 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:44 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:47 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:47 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:49 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:49 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:51 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:51 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:52 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:52 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:52 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:53 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:53 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:27:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:27:53 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:53 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:54 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:54 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:54 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:54 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:54 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:54 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:54 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:54 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:54 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:55 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:55 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:55 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:55 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:56 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:56 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:56 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:57 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:57 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:57 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:57 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:58 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:58 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:58 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:58 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:58 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:58 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:58 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:58 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:59 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:59 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:59 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:59 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:59 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:59 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:27:59 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:27:59 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:28:00 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:00 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:00 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:00 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:31 | === TraderPro AI start ===
+2025-09-07 16:28:31 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:28:31 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:28:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:33 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:41 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:28:41 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:28:44 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:28:45 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:28:45 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:28:45 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:43:13 | === TraderPro AI start ===
+2025-09-07 16:43:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:43:13 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:43:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:43:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:43:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:43:32 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:43:32 | pandas_ta.AllStrategy error: 'DataFrame' object has no attribute 'ta'
+2025-09-07 16:43:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:43:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:48:48 | === TraderPro AI start ===
+2025-09-07 16:48:48 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:48:48 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:48:50 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:48:50 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:48:50 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:48:52 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:48:53 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:48:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:00 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:00 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:00 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:01 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:02 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:02 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:08 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:08 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:09 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:11 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:49:11 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:49:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:49:59 | === TraderPro AI start ===
+2025-09-07 16:49:59 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 16:49:59 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 16:50:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:11 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:27 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:27 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:28 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:29 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:32 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:34 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:43 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:50:56 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:50:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:50:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:05 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:05 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:06 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:07 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:09 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:12 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:13 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:14 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:15 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:15 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:16 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:16 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:18 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:19 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:19 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:20 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:20 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:20 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:21 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:21 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:21 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:21 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:21 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:26 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:29 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:35 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:36 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:36 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:51:57 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:51:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:51:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:21 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:26 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:28 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:28 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:29 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:30 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:30 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:31 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 16:52:31 | find_symbol: exact match -> XAUUSD+
+2025-09-07 16:52:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 16:52:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 17:04:27 | find_symbol: exact match -> XAUUSD+
+2025-09-07 17:04:28 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 17:04:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 17:04:28 | find_symbol: exact match -> XAUUSD+
+2025-09-07 17:04:29 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 17:04:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:25:22 | === TraderPro AI start ===
+2025-09-07 22:25:22 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 22:25:22 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 22:25:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:25:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:25:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:25:34 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:25:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:25:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:25:40 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:25:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:25:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:25:41 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:25:42 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:25:42 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:31 | === TraderPro AI start ===
+2025-09-07 22:36:31 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 22:36:31 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 22:36:34 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:38 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:39 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:39 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:41 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:42 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:45 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:46 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:46 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:46 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:48 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:48 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:48 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:51 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:51 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:51 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:53 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:54 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:54 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:56 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:57 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:36:58 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:36:59 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:36:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:03 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:03 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:03 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:04 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:05 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:11 | === TraderPro AI start ===
+2025-09-07 22:37:11 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 22:37:11 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 22:37:16 | === TraderPro AI start ===
+2025-09-07 22:37:16 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-07 22:37:16 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-07 22:37:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:20 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:20 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:23 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:23 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:24 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:24 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:24 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:25 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:26 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:27 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:29 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:38 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-07 22:37:40 | find_symbol: exact match -> XAUUSD+
+2025-09-07 22:37:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-07 22:37:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 00:32:51 | === TraderPro AI start ===
+2025-09-09 00:32:51 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 00:32:51 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-09 00:33:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 00:33:54 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 00:33:54 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 00:34:09 | find_symbol: exact match -> XAUUSD+
+2025-09-09 00:34:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 00:34:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 01:19:02 | get_rates: no rates returned
+2025-09-09 01:19:05 | get_rates: no rates returned
+2025-09-09 02:03:30 | === TraderPro AI start ===
+2025-09-09 02:03:30 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 02:03:30 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-09 02:03:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:33 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:34 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:38 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:38 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:39 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:40 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:40 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:41 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:42 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:43 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:45 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:46 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:51 | === TraderPro AI start ===
+2025-09-09 02:03:51 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 02:03:51 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-09 02:03:53 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:54 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:54 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:56 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:56 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:57 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:03:58 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:03:59 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:03:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:00 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:01 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:01 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:03 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:03 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:03 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:04 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:04 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:05 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:05 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:07 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:08 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:09 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:09 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:10 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:11 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:12 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:12 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:12 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:13 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:14 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:14 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:16 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:18 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:20 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:21 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:21 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:21 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:22 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:27 | === TraderPro AI start ===
+2025-09-09 02:04:27 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 02:04:27 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-09 02:04:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:31 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:31 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:31 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:32 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:32 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:33 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:33 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:33 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:34 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:34 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:35 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:35 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:35 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:36 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:36 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:36 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:37 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:37 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:37 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:40 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:41 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:41 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:42 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:42 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:43 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:43 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:44 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:44 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:45 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:46 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:46 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:47 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:50 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:51 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:51 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:52 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:52 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:52 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:53 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:54 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:54 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:55 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:55 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:55 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:56 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:56 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:57 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:57 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:57 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:58 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:58 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:58 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:04:59 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:04:59 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:04:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:01 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:01 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:01 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:02 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:02 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:02 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:05 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:05 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:05 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:06 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:06 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:06 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:07 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:07 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:08 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:09 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:10 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:11 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:13 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:13 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:14 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:15 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:15 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:16 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:16 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:17 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 02:05:18 | find_symbol: exact match -> XAUUSD+
+2025-09-09 02:05:19 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 02:05:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:46:57 | === TraderPro AI start ===
+2025-09-09 14:46:57 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 14:46:57 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-09 14:47:07 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:08 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:08 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:09 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:10 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:10 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:10 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:11 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:15 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:15 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:16 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:17 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:17 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:17 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:18 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:47:19 | find_symbol: exact match -> XAUUSD+
+2025-09-09 14:47:19 | find_symbol: candidate match -> AUDCHF+
+2025-09-09 14:47:19 | find_symbol: candidate match -> XAUUSD+
+2025-09-09 14:52:17 | === TraderPro AI start ===
+2025-09-09 14:52:17 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-09 14:52:17 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 00:35:20 | === TraderPro AI start ===
+2025-09-10 00:35:20 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 00:35:20 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 00:35:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 00:35:23 | find_symbol: candidate match -> AUDCHF+
+2025-09-10 00:35:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 00:35:24 | find_symbol: exact match -> XAUUSD+
+2025-09-10 00:35:24 | find_symbol: candidate match -> AUDCHF+
+2025-09-10 00:35:24 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 00:35:26 | find_symbol: exact match -> XAUUSD+
+2025-09-10 00:35:26 | find_symbol: candidate match -> AUDCHF+
+2025-09-10 00:35:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:07 | === TraderPro AI start (with Expert60 strategies) ===
+2025-09-10 13:31:07 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 13:31:07 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 13:31:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:12 | fvg_vote error: 'low'
+2025-09-10 13:31:12 | compute_volume_profile error: 'high'
+2025-09-10 13:31:12 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:12 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:13 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:31:14 | fvg_vote error: 'low'
+2025-09-10 13:31:14 | compute_volume_profile error: 'high'
+2025-09-10 13:31:14 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:14 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:14 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:31:15 | fvg_vote error: 'low'
+2025-09-10 13:31:15 | compute_volume_profile error: 'high'
+2025-09-10 13:31:15 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:23 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:31:23 | fvg_vote error: 'low'
+2025-09-10 13:31:23 | compute_volume_profile error: 'high'
+2025-09-10 13:31:23 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:26 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:31:27 | fvg_vote error: 'low'
+2025-09-10 13:31:27 | compute_volume_profile error: 'high'
+2025-09-10 13:31:27 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:31:27 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:31:28 | fvg_vote error: 'low'
+2025-09-10 13:31:28 | compute_volume_profile error: 'high'
+2025-09-10 13:31:28 | levels_prev_day_session error: 'high'
+2025-09-10 13:31:28 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:40:39 | === TraderPro AI start (fixed) ===
+2025-09-10 13:40:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:40:39 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:40:39 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 13:40:39 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 13:40:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:40:39 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:15 | === TraderPro AI start (fixed GUI) ===
+2025-09-10 13:47:15 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 13:47:15 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 13:47:26 | === TraderPro AI start (fixed GUI) ===
+2025-09-10 13:47:26 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 13:47:26 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 13:47:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:47:29 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:30 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 13:47:30 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 13:47:30 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:47:30 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:31 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:47:31 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:32 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 13:47:32 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 13:47:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:47:32 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:40 | find_symbol: exact match -> XAUUSD+
+2025-09-10 13:47:40 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 13:47:41 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 13:47:41 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 13:47:41 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 13:47:41 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:24 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:24 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:25 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:25 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:25 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:25 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:27 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:27 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:27 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:27 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:27 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:27 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:32 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:32 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:32 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:32 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:32 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:32 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:34 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:34 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:34 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:34 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:34 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:34 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:35 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:35 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:36 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:36 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:36 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:36 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:36 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:36 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:37 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:37 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:37 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:37 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:38 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:38 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:38 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:38 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:38 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:38 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:42 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:42 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:43 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:43 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:43 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:43 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:43 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:44 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:44 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:44 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:44 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:46 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:46 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:46 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:46 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:46 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:46 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:47 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:13:47 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:13:47 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:13:47 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:13:47 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:13:47 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:50:58 | === TraderPro AI start (fixed GUI) ===
+2025-09-10 14:50:58 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:50:58 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-10 14:51:01 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:51:01 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:51:02 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:51:02 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:51:02 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:51:02 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:51:18 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:51:18 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:51:18 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:51:18 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:51:18 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:51:18 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 21:48:56 | === TraderPro AI start (fixed columns check) ===
+2025-09-11 21:48:56 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 21:48:56 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий). Обнови MetaTrader5 и pip-модуль.
+2025-09-11 21:49:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 21:49:39 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 21:49:39 | analyze: final df.columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume'] (len=1500)
+2025-09-11 21:49:39 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 21:49:39 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 21:49:39 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 21:49:39 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 21:49:49 | find_symbol: exact match -> XAUUSD+
+2025-09-11 21:49:49 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 21:49:49 | analyze: final df.columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume'] (len=1500)
+2025-09-11 21:49:49 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 21:49:49 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 21:49:49 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 21:49:49 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:08:23 | === TraderPro AI start (fixed columns check) ===
+2025-09-11 22:08:23 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:08:23 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий). Обнови MetaTrader5 и pip-модуль.
+2025-09-11 22:08:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:08:29 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:08:29 | analyze: final df.columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume'] (len=1500)
+2025-09-11 22:08:29 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:08:29 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:08:29 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:08:29 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:15:14 | === TraderPro AI start (with Expert60 strategies) ===
+2025-09-11 22:15:14 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:15:14 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-11 22:15:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:15:21 | fvg_vote error: 'low'
+2025-09-11 22:15:21 | compute_volume_profile error: 'high'
+2025-09-11 22:15:22 | first_candle_rule_vote error: 'high'
+2025-09-11 22:15:22 | levels_prev_day_session error: 'high'
+2025-09-11 22:15:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:15:25 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:15:25 | fvg_vote error: 'low'
+2025-09-11 22:15:25 | compute_volume_profile error: 'high'
+2025-09-11 22:15:25 | first_candle_rule_vote error: 'high'
+2025-09-11 22:15:25 | levels_prev_day_session error: 'high'
+2025-09-11 22:15:25 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:29:17 | === TraderPro AI start (with Expert60 strategies) ===
+2025-09-11 23:29:09 | === TraderPro AI start (with Expert60 strategies) ===
+2025-09-11 23:49:08 | === TraderPro AI start (with Expert60 strategies) ===
+2025-09-11 23:49:08 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 23:49:08 | find_symbol exception: symbols_get() returned empty. Проверь MT5 (возможно несовместимость версий).
+2025-09-11 23:49:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 23:49:12 | fvg_vote error: 'low'
+2025-09-11 23:49:12 | compute_volume_profile error: 'high'
+2025-09-11 23:49:12 | first_candle_rule_vote error: 'high'
+2025-09-11 23:49:12 | levels_prev_day_session error: 'high'
+2025-09-11 23:49:12 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 23:49:13 | find_symbol: exact match -> XAUUSD+
+2025-09-11 23:49:13 | fvg_vote error: 'low'
+2025-09-11 23:49:13 | compute_volume_profile error: 'high'
+2025-09-11 23:49:13 | first_candle_rule_vote error: 'high'
+2025-09-11 23:49:13 | levels_prev_day_session error: 'high'
+2025-09-11 23:49:13 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 23:49:14 | find_symbol: exact match -> XAUUSD+
+2025-09-11 23:49:15 | fvg_vote error: 'low'
+2025-09-11 23:49:15 | compute_volume_profile error: 'high'
+2025-09-11 23:49:15 | first_candle_rule_vote error: 'high'
+2025-09-11 23:49:15 | levels_prev_day_session error: 'high'
+2025-09-11 23:49:15 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 23:49:16 | find_symbol: exact match -> XAUUSD+
+2025-09-11 23:49:16 | fvg_vote error: 'low'
+2025-09-11 23:49:16 | compute_volume_profile error: 'high'
+2025-09-11 23:49:16 | first_candle_rule_vote error: 'high'
+2025-09-11 23:49:16 | levels_prev_day_session error: 'high'
+2025-09-11 23:49:16 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 23:49:42 | find_symbol: exact match -> XAUUSD+
+2025-09-11 23:49:42 | fvg_vote error: 'low'
+2025-09-11 23:49:42 | compute_volume_profile error: 'high'
+2025-09-11 23:49:42 | first_candle_rule_vote error: 'high'
+2025-09-11 23:49:42 | levels_prev_day_session error: 'high'
+2025-09-11 23:49:42 | find_symbol: candidate match -> XAUUSD+
+2025-09-12 00:03:55 | find_symbol: exact match -> XAUUSD+
+2025-09-12 00:03:56 | fvg_vote error: 'low'
+2025-09-12 00:03:56 | compute_volume_profile error: 'high'
+2025-09-12 00:03:56 | first_candle_rule_vote error: 'high'
+2025-09-12 00:03:56 | levels_prev_day_session error: 'high'
+2025-09-12 00:03:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-12 00:03:56 | find_symbol: exact match -> XAUUSD+
+2025-09-12 00:03:56 | fvg_vote error: 'low'
+2025-09-12 00:03:56 | compute_volume_profile error: 'high'
+2025-09-12 00:03:56 | first_candle_rule_vote error: 'high'
+2025-09-12 00:03:56 | levels_prev_day_session error: 'high'
+2025-09-12 00:03:56 | find_symbol: candidate match -> XAUUSD+

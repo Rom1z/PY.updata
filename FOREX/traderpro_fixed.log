@@ -1,0 +1,11 @@
+2025-09-11 23:48:22,014 - INFO - TraderPro fixed starting...
+2025-09-11 23:48:22,014 - INFO - MetaTrader5 module available.
+2025-09-11 23:48:22,014 - WARNING - CSV file not found: XAUUSD_sample.csv
+2025-09-11 23:48:22,015 - INFO - Using synthetic data for test.
+2025-09-11 23:48:22,313 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 23:48:22,603 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 23:48:23,024 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 23:48:23,025 - INFO - News aggregated: avg_sentiment=0.280 count=10
+2025-09-11 23:48:23,025 - INFO - Signal created: sell (conf=0.451) : {'expert_raw': -1.9, 'expert_norm': -0.6333333333333333, 'expert_reasons': ['Тренд медвежий по EMA', 'MACD гистограмма < 0', 'Цена выше VWAP', 'PSAR над ценой (медвежий контекст)'], 'market_intent': {'inst': 0.2, 'mm': 0.3, 'retail': 0.5}, 'news': {'avg_sentiment': 0.27999999999999997, 'count': 10}}
+2025-09-11 23:48:23,025 - INFO - Holding: signal=sell conf=0.45 thr=0.55
+2025-09-11 23:48:23,026 - INFO - Single-run finished.

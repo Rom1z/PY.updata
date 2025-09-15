@@ -1,0 +1,44 @@
+2025-09-11 23:29:14,856 - INFO - TraderPro AI full starting...
+2025-09-11 23:29:14,856 - INFO - MetaTrader5 доступен.
+2025-09-11 23:29:14,856 - WARNING - No MT5 data Ч пытаюсь загрузить из CSV/synthetic.
+2025-09-11 23:29:14,856 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 23:29:14,858 - INFO - »спользую синтетические данные дл€ теста.
+2025-09-11 23:29:14,969 - INFO - MarketMakerIntent: inst=0.23 mm=0.23 retail=0.54
+2025-09-11 23:29:15,217 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 23:29:15,503 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 23:29:15,760 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 23:29:41,004 - INFO - TraderPro AI full starting...
+2025-09-11 23:29:41,004 - INFO - MetaTrader5 доступен.
+2025-09-11 23:29:41,004 - WARNING - No MT5 data Ч пытаюсь загрузить из CSV/synthetic.
+2025-09-11 23:29:41,005 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 23:29:41,007 - INFO - »спользую синтетические данные дл€ теста.
+2025-09-11 23:29:41,070 - INFO - MarketMakerIntent: inst=0.23 mm=0.23 retail=0.54
+2025-09-11 23:29:41,349 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 23:29:41,635 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 23:29:41,924 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 23:36:19,405 - INFO - TraderPro AI full starting...
+2025-09-11 23:36:19,406 - INFO - MetaTrader5 доступен.
+2025-09-11 23:36:19,406 - WARNING - No MT5 data Ч пытаюсь загрузить из CSV/synthetic.
+2025-09-11 23:36:19,406 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-11 23:36:19,407 - INFO - »спользую синтетические данные дл€ теста.
+2025-09-11 23:36:19,470 - INFO - MarketMakerIntent: inst=0.23 mm=0.23 retail=0.54
+2025-09-11 23:36:19,760 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-11 23:36:20,031 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-11 23:36:20,414 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-11 23:36:20,415 - INFO - News aggregated: avg_sentiment=-0.020 count=10
+2025-09-11 23:36:20,415 - INFO - Signal created: buy (conf=0.569) : {'expert_raw': 2.4, 'expert_norm': 0.39999999999999997, 'expert_reasons': ['MACD гистограмма > 0', '÷ена выше VWAP', 'PSAR под ценой (бычий контекст)', 'ѕравило первой свечи: пробой high первой свечи (9:30 NY) -> BUY', 'Ќет данных дл€ DXY'], 'market_intent': {'inst': 0.23076923076923078, 'mm': 0.23076923076923078, 'retail': 0.5384615384615385}, 'news': {'avg_sentiment': -0.019999999999999997, 'count': 10, 'manual': 0.0}, 'momentum': 0.0006965399210799394, 'raw_confidence': 0.5693}
+2025-09-11 23:36:20,415 - INFO - Order placed: {"id": 1, "symbol": "XAUUSD", "side": "buy", "volume": 10.0, "sl": 1921.955, "tp": 1922.922, "comment": "auto signal conf=0.57", "time": "2025-09-11T20:36:20.415149", "status": "simulated"}
+2025-09-11 23:36:20,415 - INFO - Single-run finished.
+2025-09-15 12:12:30,417 - INFO - TraderPro AI full starting...
+2025-09-15 12:12:30,418 - INFO - MetaTrader5 доступен.
+2025-09-15 12:12:30,418 - WARNING - No MT5 data Ч пытаюсь загрузить из CSV/synthetic.
+2025-09-15 12:12:30,418 - WARNING - CSV файл не найден: XAUUSD_sample.csv
+2025-09-15 12:12:30,434 - INFO - »спользую синтетические данные дл€ теста.
+2025-09-15 12:12:30,622 - INFO - MarketMakerIntent: inst=0.30 mm=0.30 retail=0.40
+2025-09-15 12:12:30,872 - INFO - RSS https://www.reuters.com/markets/commodities/rss: 0 items
+2025-09-15 12:12:31,170 - INFO - RSS https://www.fxstreet.com/rss/news: 5 items
+2025-09-15 12:12:31,953 - INFO - RSS https://www.investing.com/rss/news_25.rss: 5 items
+2025-09-15 12:12:31,953 - INFO - News aggregated: avg_sentiment=0.600 count=10
+2025-09-15 12:12:31,953 - INFO - Signal created: buy (conf=0.521) : {'expert_raw': 1.1102230246251565e-16, 'expert_norm': 1.850371707708594e-17, 'expert_reasons': ['“ренд медвежий по EMA (8<21<50)', 'MACD гистограмма > 0', '÷ена выше VWAP', 'PSAR под ценой (бычий контекст)', 'FVG bull пересечена Ч возможный sell-limit (зона 1903.5603-1904.2733)', 'Ќет данных дл€ DXY'], 'market_intent': {'inst': 0.3, 'mm': 0.3, 'retail': 0.4}, 'news': {'avg_sentiment': 0.6, 'count': 10, 'manual': 0.0}, 'momentum': 3.898230262599142e-05, 'raw_confidence': 0.521}
+2025-09-15 12:12:31,954 - INFO - Holding. signal=buy conf=0.52 (threshold=0.55)
+2025-09-15 12:12:31,990 - INFO - Single-run finished.

@@ -1,0 +1,130 @@
+2025-09-10 14:57:55 | === TraderPro AI start (fixed GUI full) ===
+2025-09-10 14:57:55 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:56 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:56 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:56 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:57 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:58 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 14:57:59 | mt5.initialize successful
+2025-09-10 14:58:04 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:58:04 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:58:04 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:58:04 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:58:04 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:58:04 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:58:10 | find_symbol: exact match -> XAUUSD+
+2025-09-10 14:58:10 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 14:58:11 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 14:58:11 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 14:58:11 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 14:58:11 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:12 | === TraderPro AI start (fixed GUI full) ===
+2025-09-10 15:24:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:13 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:14 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:15 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-10 15:24:17 | mt5.initialize successful
+2025-09-10 15:24:22 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 15:24:22 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:23 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 15:24:23 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 15:24:23 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 15:24:23 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:24 | find_symbol: exact match -> XAUUSD+
+2025-09-10 15:24:24 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:25 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 15:24:25 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 15:24:25 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 15:24:25 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:25 | find_symbol: exact match -> XAUUSD+
+2025-09-10 15:24:25 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-10 15:24:26 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-10 15:24:26 | levels_prev_day_session skipped (нет high/low)
+2025-09-10 15:24:26 | find_symbol: candidate match -> XAUUSD+
+2025-09-10 15:24:26 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:35 | === TraderPro AI start (fixed GUI full) ===
+2025-09-11 22:14:35 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:35 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:36 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:36 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:37 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:38 | find_symbol exception: symbols_get() returned empty. last_error=(-5, 'Terminal: Incompatible versions, please install the latest version of Terminal and Python module')
+2025-09-11 22:14:39 | mt5.initialize successful
+2025-09-11 22:14:42 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:42 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:43 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:43 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:43 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:43 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:54 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:54 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:55 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:55 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:55 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:55 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:55 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:55 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:55 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:55 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:55 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:55 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:56 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:56 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:56 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:56 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:56 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:57 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:57 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:14:57 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:14:59 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:14:59 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:14:59 | find_symbol: candidate match -> XAUUSD+
+2025-09-11 22:14:59 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:15:02 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:15:09 | find_symbol: exact match -> XAUUSD+
+2025-09-11 22:15:09 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:15:09 | get_rates: columns for XAUUSD+: ['open', 'high', 'low', 'close', 'volume']
+2025-09-11 22:15:10 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:15:10 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:15:10 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:10 | compute_volume_profile skipped (нет high/low/close/volume)
+2025-09-11 22:15:10 | levels_prev_day_session skipped (нет high/low)
+2025-09-11 22:15:10 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:10 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:10 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:11 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:11 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:11 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:11 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:12 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:12 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:12 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:12 | find_symbol exception: symbols_get() returned empty. last_error=(-10004, 'No IPC connection')
+2025-09-11 22:15:28 | get_rates failed for DXY, tf=16388, bars~1500. last errors: [('no_rates', 300, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection'))]
+2025-09-11 22:15:28 | get_rates failed for DXY, tf=16388, bars~1500. last errors: [('no_rates', 300, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection')), ('no_rates', 200, (-10004, 'No IPC connection'))]
